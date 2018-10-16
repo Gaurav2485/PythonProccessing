@@ -1,6 +1,3 @@
-#Container for Kafka - Spark streaming - Cassandra
-#IMPORTANT: If you wish to share folder between your host and this container, make sure the UID for user guest is the same as your UID
-#Check https://github.com/Yannael/brufence/blob/master/docker/streaming/README.md for details
 FROM centos:centos6
 
 RUN yum -y update;
