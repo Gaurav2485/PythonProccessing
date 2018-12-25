@@ -7,4 +7,4 @@ su guest $HOME/kafka/bin/zookeeper-server-start.sh $HOME/kafka/config/zookeeper.
 su guest $HOME/kafka/bin/kafka-server-start.sh $HOME/kafka/config/server.properties > /home/guest/kafka.log 2>&1 &
 
 sleep 15
-cqlsh -f init_cass.cql1
+cqlsh -f init_cass.cql111
